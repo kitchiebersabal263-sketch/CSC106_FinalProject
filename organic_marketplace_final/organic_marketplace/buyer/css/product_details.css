@@ -1,0 +1,321 @@
+/* =====================================================
+   GLOBAL + CONTAINER
+   ===================================================== */
+.product-details {
+    background: var(--card-bg, #ffffff);
+    padding: 20px;
+    border-radius: var(--radius, 16px);
+    box-shadow: var(--shadow-card, 0 4px 20px rgba(26, 77, 46, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05));
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 24px;
+    border: 1px solid var(--border-color, #e5e7eb);
+    margin-bottom: 24px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =====================================================
+   CAROUSEL (Modern Style)
+   ===================================================== */
+.carousel {
+    width: 100%;
+    height: 380px;
+    background: linear-gradient(135deg, #f8faf9 0%, #f1f5f9 100%);
+    border: 1px solid var(--border-color, #e5e7eb);
+    border-radius: var(--radius-sm, 10px);
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm, 0 1px 2px 0 rgba(0, 0, 0, 0.05));
+}
+.carousel-track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.carousel-slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Arrows */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.carousel-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--primary-green, #1a4d2e);
+    border: 1px solid var(--border-color, #e5e7eb);
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+.carousel-btn:hover {
+    background: var(--white, #ffffff);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Dots */
+.carousel-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+}
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel-dot.active {
+    background: var(--accent-green, #52b788);
+    transform: scale(1.2);
+}
+
+/* =====================================================
+   PRODUCT INFO
+   ===================================================== */
+.product-info-detail h1 {
+    font-size: 1.75em;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: var(--dark-text, #1a1a1a);
+    line-height: 1.3;
+    background: var(--gradient-primary, linear-gradient(135deg, #1a4d2e 0%, #2d6a4f 50%, #40916c 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.category {
+    display: inline-block;
+    padding: 6px 14px;
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f4 100%);
+    color: var(--primary-green, #1a4d2e);
+    font-size: 0.85em;
+    border-radius: var(--radius-sm, 10px);
+    margin-bottom: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(26, 77, 46, 0.1);
+}
+
+.price {
+    font-size: 1.9em;
+    font-weight: 800;
+    color: var(--accent-green, #52b788);
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.location {
+    font-size: 0.9em;
+    color: var(--gray-text, #6b7280);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* =====================================================
+   DESCRIPTION
+   ===================================================== */
+.description {
+    padding: 14px 16px;
+    background: linear-gradient(135deg, #f8faf9 0%, #ffffff 100%);
+    border: 1px solid var(--border-color, #e5e7eb);
+    border-radius: var(--radius-sm, 10px);
+    margin-bottom: 16px;
+    color: var(--dark-text, #1a1a1a);
+    font-size: 0.9em;
+    line-height: 1.6;
+    box-shadow: var(--shadow-sm, 0 1px 2px 0 rgba(0, 0, 0, 0.05));
+}
+
+.description strong {
+    color: var(--primary-green, #1a4d2e);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* =====================================================
+   FARMER INFO BOX
+   ===================================================== */
+.farmer-info {
+    background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+    border: 1px solid var(--accent-green, #52b788);
+    border-left: 4px solid var(--accent-green, #52b788);
+    padding: 16px;
+    border-radius: var(--radius-sm, 10px);
+    margin-bottom: 18px;
+    box-shadow: var(--shadow-sm, 0 1px 2px 0 rgba(0, 0, 0, 0.05));
+}
+.farmer-info h3 {
+    margin-bottom: 10px;
+    color: var(--primary-green, #1a4d2e);
+    font-size: 1em;
+    font-weight: 700;
+}
+.farmer-info p {
+    margin-bottom: 6px;
+    font-size: 0.9em;
+    color: var(--dark-text, #1a1a1a);
+    line-height: 1.5;
+}
+.farmer-info strong {
+    color: var(--primary-green, #1a4d2e);
+    font-weight: 600;
+}
+
+/* =====================================================
+   QUANTITY + ADD TO CART
+   ===================================================== */
+.add-to-cart-form {
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.add-to-cart-form input[type="number"] {
+    width: 90px;
+    padding: 10px 12px;
+    border-radius: var(--radius-sm, 10px);
+    border: 2px solid var(--border-color, #e5e7eb);
+    font-size: 0.95em;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.add-to-cart-form input[type="number"]:focus {
+    outline: none;
+    border-color: var(--accent-green, #52b788);
+    box-shadow: 0 0 0 4px rgba(82, 183, 136, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Modern Green Button */
+.add-to-cart-form button {
+    padding: 10px 24px;
+    background: var(--gradient-button, linear-gradient(135deg, #2d6a4f 0%, #40916c 100%));
+    border: none;
+    border-radius: var(--radius-sm, 10px);
+    color: white;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(45, 106, 79, 0.3), 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+.add-to-cart-form button:hover {
+    background: linear-gradient(135deg, #1a4d2e 0%, #2d6a4f 100%);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(45, 106, 79, 0.4), 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* =====================================================
+   ADDITIONAL STYLING
+   ===================================================== */
+.product-info-detail > p,
+.quantity-info {
+    margin-bottom: 12px;
+    font-size: 0.9em;
+    color: var(--dark-text, #1a1a1a);
+}
+
+.product-info-detail > p strong,
+.quantity-info strong {
+    color: var(--primary-green, #1a4d2e);
+    font-weight: 600;
+}
+
+.quantity-value {
+    color: var(--accent-green, #52b788);
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.product-info-detail > p[style*="color:#ff4b4b"] {
+    padding: 10px 14px;
+    background: linear-gradient(135deg, #fee 0%, #fdd 100%);
+    border: 1px solid #fcc;
+    border-radius: var(--radius-sm, 10px);
+    font-weight: 600;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.carousel.no-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-text, #6b7280);
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+/* =====================================================
+   RESPONSIVE — MOBILE
+   ===================================================== */
+@media (max-width: 850px) {
+    .product-details {
+        grid-template-columns: 1fr;
+        padding: 16px;
+        gap: 20px;
+    }
+    .carousel {
+        height: 320px;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-details {
+        padding: 12px;
+        gap: 16px;
+    }
+    .carousel {
+        height: 280px;
+    }
+    .product-info-detail h1 {
+        font-size: 1.5em;
+    }
+    .price {
+        font-size: 1.6em;
+    }
+    .add-to-cart-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .add-to-cart-form input[type="number"] {
+        width: 100%;
+    }
+}

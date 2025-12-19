@@ -1,0 +1,180 @@
+{
+    "time": "2025-12-09T15:33:07+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=16",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:33:29+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=14",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:34:32+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:52:21+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:55:43+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:55:44+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:55:45+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:55:58+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:56:57+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=12",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T15:59:14+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T16:02:32+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
+{
+    "time": "2025-12-09T16:07:42+01:00",
+    "uri": "\/organic_marketplace\/farmer\/edit_product.php?id=5017",
+    "method": "GET",
+    "remote_addr": "::1",
+    "error": {
+        "type": 1,
+        "message": "Uncaught Error: Call to undefined function get_allowed_categories() in C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php:78\nStack trace:\n#0 {main}\n  thrown",
+        "file": "C:\\Users\\Administrator\\Desktop\\New folder\\htdocs\\organic_marketplace\\farmer\\edit_product.php",
+        "line": 78
+    },
+    "post": [],
+    "files": []
+}
+---
